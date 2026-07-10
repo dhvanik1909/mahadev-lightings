@@ -1,27 +1,18 @@
-MAHADEV LIGHTINGS WEBSITE
+Mahadev Lightings Website V2
 
-Files:
+Upload/replace these items in your GitHub repository:
 - index.html
 - style.css
 - script.js
 - logo.png
+- images folder (all files)
 
-How to open:
-1. Double-click index.html.
-2. Website will open in Chrome.
+On GitHub:
+1. Open repository > Add file > Upload files.
+2. Upload all V2 files and the images folder.
+3. Tick 'Commit directly to main'.
+4. Click Commit changes.
+5. Wait 1-2 minutes and refresh your live site.
 
-Free publish with GitHub Pages:
-1. Create a GitHub account.
-2. Create a new public repository named mahadev-lightings.
-3. Upload all 4 files.
-4. Open Settings > Pages.
-5. Select Deploy from branch > main > root.
-6. Save. Your free website link will be generated.
-
-Business details used:
-- Phone / WhatsApp: 8320618746
-- Location: Kadi, Mehsana
-- Instagram: https://www.instagram.com/mahadev_lightings_kadi
-
-To add real photos:
-Replace gallery demo blocks in index.html with <img> tags or send your photos for editing.
+Live URL:
+https://dhvanik1909.github.io/mahadev-lightings/
