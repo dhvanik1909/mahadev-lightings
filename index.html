@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mahadev Lightings, Kadi - Wedding, Event, Stage and Decorative Lighting Services." />
+  <title>Mahadev Lightings | Kadi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home">
+      <img src="logo.png" alt="Mahadev Lightings logo" />
+      <span>Mahadev Lightings</span>
+    </a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#booking">Booking</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="eyebrow">Kadi • Mehsana</span>
+        <h1>Light Up Your <span>Special Moments</span></h1>
+        <p>Premium wedding, stage, decorative and event lighting with a stylish black-and-gold experience.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="https://wa.me/918320618746?text=Hello%20Mahadev%20Lightings%2C%20I%20want%20to%20book%20lighting%20for%20my%20event." target="_blank">WhatsApp Booking</a>
+          <a class="btn secondary" href="tel:+918320618746">Call Now</a>
+        </div>
+      </div>
+      <div class="hero-logo">
+        <img src="logo.png" alt="Mahadev Lightings emblem" />
+      </div>
+    </section>
+
+    <section class="section intro">
+      <div>
+        <span class="eyebrow">About Us</span>
+        <h2>Beautiful Lighting. Memorable Events.</h2>
+      </div>
+      <p>Mahadev Lightings provides creative lighting solutions for weddings, receptions, birthdays, stage shows and private events across Kadi and nearby areas.</p>
+    </section>
+
+    <section class="section" id="services">
+      <span class="eyebrow">Our Services</span>
+      <h2>Lighting Services</h2>
+      <div class="cards">
+        <article class="card"><div class="icon">💍</div><h3>Wedding Lighting</h3><p>Elegant entrance, mandap, venue and decorative lighting for wedding functions.</p></article>
+        <article class="card"><div class="icon">🎤</div><h3>Stage Lighting</h3><p>Moving heads, spotlights and stage effects for shows, garba and live events.</p></article>
+        <article class="card"><div class="icon">✨</div><h3>Decorative Lighting</h3><p>Fairy lights, chandeliers, warm ambience and custom theme lighting.</p></article>
+        <article class="card"><div class="icon">🎉</div><h3>Birthday & Reception</h3><p>Colorful, modern lighting setups for birthdays, receptions and parties.</p></article>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <span class="eyebrow">Our Work</span>
+      <h2>Lighting Gallery</h2>
+      <p class="muted">Replace these demo panels with your real event photos later.</p>
+      <div class="gallery">
+        <div class="gallery-item g1"><span>Wedding Entrance</span></div>
+        <div class="gallery-item g2"><span>Stage Lighting</span></div>
+        <div class="gallery-item g3"><span>Reception Decor</span></div>
+        <div class="gallery-item g4"><span>Warm Ambience</span></div>
+        <div class="gallery-item g5"><span>DJ & Moving Lights</span></div>
+        <div class="gallery-item g6"><span>Outdoor Lighting</span></div>
+      </div>
+      <a class="instagram-link" href="https://www.instagram.com/mahadev_lightings_kadi" target="_blank">View more work on Instagram →</a>
+    </section>
+
+    <section class="section booking" id="booking">
+      <div class="booking-copy">
+        <span class="eyebrow">Quick Enquiry</span>
+        <h2>Book Lighting for Your Event</h2>
+        <p>Fill the details and your enquiry will open directly in WhatsApp.</p>
+        <ul>
+          <li>Fast quotation</li>
+          <li>Custom lighting setup</li>
+          <li>Kadi and nearby service</li>
+        </ul>
+      </div>
+
+      <form id="bookingForm">
+        <label>Name<input id="name" required placeholder="Your name" /></label>
+        <label>Mobile<input id="mobile" required inputmode="numeric" placeholder="10-digit mobile number" /></label>
+        <label>Event Type
+          <select id="eventType">
+            <option>Wedding</option>
+            <option>Reception</option>
+            <option>Birthday</option>
+            <option>Stage Show</option>
+            <option>Other Event</option>
+          </select>
+        </label>
+        <label>Event Date<input id="eventDate" type="date" /></label>
+        <label>Location<input id="location" placeholder="Event location" /></label>
+        <label>Message<textarea id="message" rows="4" placeholder="Tell us about your requirement"></textarea></label>
+        <button class="btn primary full" type="submit">Send Enquiry on WhatsApp</button>
+      </form>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-card">
+        <span class="eyebrow">Contact</span>
+        <h2>Mahadev Lightings</h2>
+        <p>Kadi, Mehsana, Gujarat</p>
+        <div class="contact-actions">
+          <a href="tel:+918320618746">📞 8320618746</a>
+          <a href="https://wa.me/918320618746" target="_blank">💬 WhatsApp</a>
+          <a href="https://www.instagram.com/mahadev_lightings_kadi" target="_blank">📷 Instagram</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=Kadi%2C%20Mehsana%2C%20Gujarat" target="_blank">📍 Google Maps</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a class="floating-whatsapp" href="https://wa.me/918320618746?text=Hello%20Mahadev%20Lightings" target="_blank" aria-label="WhatsApp">💬</a>
+
+  <footer>
+    <img src="logo.png" alt="" />
+    <p>© <span id="year"></span> Mahadev Lightings. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
